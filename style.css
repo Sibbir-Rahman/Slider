@@ -1,0 +1,26 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+
+
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item img {
+    max-width: 100%;
+    height: 650px;
+}
+
+.item {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+
+.item.active{
+    opacity: 1;
+}
